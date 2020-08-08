@@ -10,6 +10,7 @@
 
 const char* ssid     = "ssid";
 const char* password = "password";
+const char* apikey = "apikey";
 
 const char* host = "opendata.lillemetropole.fr";
 unsigned long delayBetweenChecks = 60000; //mean time between api requests
@@ -114,6 +115,8 @@ void getResponse()
     url += "(identifiantstation+%3D+TRANSPOLE%3AStopPointRef%3ABP%3A794%3ALOC)";
     url += "&rows=5";
     url += "&sort=-heureestimeedepart";
+    url += "&apikey=";
+    url += apikey;
     
     Serial.print("Requesting URL: ");
     Serial.println(url);
