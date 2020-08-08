@@ -1,6 +1,6 @@
 # Lille Bus/Tramway timetable for ESP32
 
-![Running](https://i.imgur.com/njUgrnd.mp4)
+![Running](https://i.imgur.com/tZCkxXV.gif)
 
 
 Uses the MEL's implementation of the opendata API, documentation [here](https://help.opendatasoft.com/apis/ods-search-v1/#search-api-v1).
